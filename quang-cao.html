@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bất động sản - Hoàng Trung</title>
+    <title>Quảng cáo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active">
+                    <li>
                         <a class="page-scroll" href="index.html">TRANG CHỦ</a>
                     </li>
                     <li>
@@ -57,7 +57,7 @@
                     <li>
                         <a class="page-scroll" href="chien-dich.html">CHIẾN DỊCH</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a class="page-scroll" href="quang-cao.html">QUẢNG CÁO</a>
                     </li>
                     <li>
@@ -76,44 +76,28 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header> -->
-
-    <section id="about">
+    <section id="title-heading">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">HOẠT ĐỘNG MÔI GIỚI TẠI VIỆT NAM</h3>
+                <div class="col-lg-9">
+                    <h3 class="section-heading text-center">QUẢNG CÁO BẰNG ZALO</h3>
                     <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="map" id="map"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">DANH SÁCH MÔI GIỚI TẠI VIỆT NAM</h3>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    Nội dung tin nhắn
+                                </div>
+                                <div class="panel-body">
+                                    <p>
+                                        Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
+                                    </p>
+                                    <p class="text-muted">
+                                        <i>*** Lưu ý, bạn nên tạo nội dung sinh động bằng các từ khóa đồng nghĩa đặt trong ngoặc nhọn để tránh Zalo chặn. Ví dụ: {xin chào | chào bạn}, Tôi xin hận hạnh giới thiệu {sản phẩm|bất động sản}...</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="form-group">
                                         <label for="tinh-tp">Tỉnh/Thành phố</label>
@@ -150,139 +134,83 @@
                                     </div>
                                 </div>
                             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-home">
-                            <thead>
-                                <tr>
-                                    <th>Khu vực</th>
-                                    <th class="text-center">Chọn</th>
-                                    <th colspan="3" class="text-center">Môi giới</th>
-                                    <th colspan="2" class="text-center">Tin rao</th>
-                                    <th colspan="2" class="text-center">Tin rao 3 tháng</th>
-                                    <th colspan="2" class="text-center">Tin rao 1 tháng</th>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        Địa điểm
-                                    </th>
-                                    <th class="text-center">
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                    </th>
-                                    <th class="text-center">Số lượng</th>
-                                    <th class="text-center">Mới</th>
-                                    <th class="text-center">% mới</th>
-                                    <th class="text-center">Số lượng</th>
-                                    <th class="text-center">%</th>
-                                    <th class="text-center">Số lượng</th>
-                                    <th class="text-center">%</th>
-                                    <th class="text-center">Số lượng</th>
-                                    <th class="text-center">%</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                       <div id="treeview7"></div>
-                                    </td>
-                                    <td class="text-center">
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                        <p>
-                                            <input type="checkbox" class="styled" id="check-all" value="all">
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                    <td>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                        <p>100</p>
-                                        <p>100</p>
-                                        <p>20</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Môi giới(130)</th>
+                                                    <th>Khu vực hoạt động chính</th>
+                                                    <th class="text-center">Trạng thái</th>
+                                                    <th class="text-center">Thời điểm gửi</th>
+                                                    <th><input type="checkbox" class="styled" id="check-all" value="all"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b><a href="#">Hồng nhật(1000 tin rao)</a></b>
+                                                        <p class="text-muted"><i class="fa fa-phone"></i> <a href="tel:0986.86.86.86">0986.86.86.86</a></p>
+                                                    </td>
+                                                    <td>
+                                                        1. Cẩm Lệ, Hòa Vang, Ngũ Hành Sơn
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <i class="fa fa-play-circle">
+                                                    </td>
+                                                    <td>
+                                                        2016/12/14, 13:50:10
+                                                    </td>
+                                                    <td><input type="checkbox" class="styled" value="1" checked></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <b><a href="#">Hồng nhật(1000 tin rao)</a></b>
+                                                        <p class="text-muted"><i class="fa fa-phone"></i> <a href="tel:0986.86.86.86">0986.86.86.86</a></p>
+                                                    </td>
+                                                    <td>
+                                                        1. Cẩm Lệ, Hòa Vang, Ngũ Hành Sơn
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <i class="fa fa-check"></i>
+                                                    </td>
+                                                    <td>
+                                                        2016/12/14, 13:50:10
+                                                    </td>
+                                                    <td><input type="checkbox" class="styled" value="1" checked></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="row border-left">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <img class="img-circle" src="img/avatar.jpg" width="120px">
+                                <p class="no-margin"><a href="#"><b>Hồng Nhật</b></a></p>
+                                <p class="no-margin"><i class="fa fa-phone-square"></i> 0986.86.86.86</p>
+                                <p class="no-margin">Tài khoản: 150.000 VND</p>
+                                <button class="btn square btn-add" type="button"><i class="fa fa-plus"></i> Nạp thêm tiền</button>
+                            </div>
+                            <div class="text-center">
+                                <br>
+                                <p><i class="fa fa-3x fa-play-circle"></i></p>
+                                <p class="no-margin">234/758 khách hàng</p>
+                                <div>slider</div>
+                                <p class="text-left no-margin">Số lượng khách: 134</p>
+                                <p class="text-left no-margin">Chi phí 134 x 200 = 26.800 VND</p>
+                            </div>
+                            <div>
+                                <p class="no-margin">Thời gian bắt đầu : 11/12/2016</p>
+                                <p class="no-margin">Thời gian kết thúc : 15/12/2016</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -353,11 +281,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="vendor/tree/bootstrap-treeview.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/data-map-conf.js"></script>
-    <script src="js/tree-conf.js"></script>
     <script src="js/creative.js"></script>
 
 </body>

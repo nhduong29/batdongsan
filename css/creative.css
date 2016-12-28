@@ -569,6 +569,27 @@ table .fa-play-circle{
   color: #b928d2;
 }
 
+.fa-play-circle{
+  color: #28d230;
+}
+
 table .fa-refresh{
   color: #176bce;
+}
+.border-left{
+  border-left: 1px solid #b2b2b2;
+}
+
+table.table-home p{
+  margin-bottom: 0px;
+}
+
+table .list-group-item {
+  padding:0px 5px;
+  line-height: 24px;
+}
+
+table .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
