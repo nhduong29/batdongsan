@@ -554,7 +554,7 @@ table b a{
   height: 1px;
   margin-top: 15px; 
   margin-bottom: 15px;
-  background-color: #222222;
+  background-color: #e5e5e5;
 }
 
 table .fa-check{
@@ -598,3 +598,20 @@ table .list-group-item:first-child {
     border-top-right-radius: 0px;
 }
 
+.text-gray{
+  color: #f9f9f9;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.phuongthucnap{
+  background-color: #71776e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.phuongthucnap.active,.phuongthucnap:hover{
+  background-color: #F05F40;
+}
