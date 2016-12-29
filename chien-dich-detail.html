@@ -79,45 +79,58 @@
     <section id="title-heading">
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <div>
                         <h3 class="section-heading text-center">CHIẾN DỊCH ĐÀ NẴNG</h3>
                         <hr class="primary">
                             <ul class="nav nav-tabs">
                                 <li class="active"><a href="#tab-chien-dich" data-toggle="tab">Chiến dịch</a></li>
-                                <li><a href="#tab-thong-ke" data-toggle="tab">Thống kê quảng cáo</a></li>
                                 <li><a href="#tab-moi-gioi" data-toggle="tab">Môi giới</a></li>
-
-                                <p class="text-right no-margin"><button class="btn square btn-default" type="submit"><i class="fa fa-edit"></i> Sửa nội dung</button></p>
+                                <li><a href="#tab-thong-ke" data-toggle="tab">Thống kê quảng cáo</a></li>
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="tab-chien-dich">
-                                    <div class="table-responsive">
-                                        <table class="table table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>Tên chiến dịch</th>
-                                                    <th>Mục tiêu</th>
-                                                    <th>Thời gian bắt đầu</th>
-                                                    <th>Thời gian kết thúc</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <a href="#">Chiến dịch Đằ Nẵng</a>
-                                                    </td>
-                                                    <td>Quảng bá bất động sản tại Đà Nẵng</td>
-                                                    <td>13/12/2016</td>
-                                                    <td>19/12/2016</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="row">
+                                        <div class="col-md-9 col-xs-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Tên chiến dịch</th>
+                                                            <th>Mục tiêu</th>
+                                                            <th>Thời gian bắt đầu</th>
+                                                            <th>Thời gian kết thúc</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">Chiến dịch Đằ Nẵng</a>
+                                                            </td>
+                                                            <td>Quảng bá bất động sản tại Đà Nẵng</td>
+                                                            <td>13/12/2016</td>
+                                                            <td>19/12/2016</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <button class="btn square btn-default" type="submit"><i class="fa fa-edit"></i> Sửa nội dung</button>
+                                        </div>
+                                        <div class="col-md-3 col-xs-12">
+                                            <div class="user text-center">
+                                                <img class="img-circle" src="img/avatar.jpg" width="120px">
+                                                <p class="no-margin"><a href="#"><b>Hồng Nhật</b></a></p>
+                                                <p class="no-margin"><i class="fa fa-phone-square"></i> 0986.86.86.86</p>
+                                                <p class="no-margin">Tài khoản: 150.000 VND</p>
+                                                <button class="btn square btn-add" type="button"><i class="fa fa-plus"></i> Nạp thêm tiền</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tab-thong-ke">
                                     <div class="row">
-                                        <div class="table-responsive">
+                                        <div class="col-md-9 col-xs-12">
+                                            <div class="table-responsive">
                                             <table class="table table-hover">
                                                 <tbody>
                                                     <tr>
@@ -147,12 +160,28 @@
                                                 </tbody>
                                             </table>
                                         </div>
+                                        <button class="btn square btn-default" type="submit"><i class="fa fa-edit"></i> Sửa nội dung</button>
+                                        </div>
+                                        <div class="col-md-3 col-xs-12">
+                                            <div class="user text-center">
+                                                <img class="img-circle" src="img/avatar.jpg" width="120px">
+                                                <p class="no-margin"><a href="#"><b>Hồng Nhật</b></a></p>
+                                                <p class="no-margin"><i class="fa fa-phone-square"></i> 0986.86.86.86</p>
+                                                <p class="no-margin">Tài khoản: 150.000 VND</p>
+                                                <button class="btn square btn-add" type="button"><i class="fa fa-plus"></i> Nạp thêm tiền</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="tab-moi-gioi">
-                                    <p>
-                                        <button class="btn square btn-add" type="button"><i class="fa fa-plus"></i> Thêm môi giới mới</button>
+                                    <p class="no-margin">
+                                        <b>Đã có: <span>500 người</span></b>
                                     </p>
+                                    <p>
+                                        <button class="btn square btn-add" type="submit"><i class="fa fa-plus"></i> Thêm 250 môi giới</button>
+                                        <button class="btn square btn-add" type="submit">Xong</button>
+                                    </p>
+                                        
                                     <div class="row">
                                         <div class="row">
                                             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -194,15 +223,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div class="user text-center">
-                        <img class="img-circle" src="img/avatar.jpg" width="120px">
-                        <p class="no-margin"><a href="#"><b>Hồng Nhật</b></a></p>
-                        <p class="no-margin"><i class="fa fa-phone-square"></i> 0986.86.86.86</p>
-                        <p class="no-margin">Tài khoản: 150.000 VND</p>
-                        <button class="btn square btn-add" type="button"><i class="fa fa-plus"></i> Nạp thêm tiền</button>
                     </div>
                 </div>
             </div>
