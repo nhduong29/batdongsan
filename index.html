@@ -444,16 +444,8 @@
                           <div class="modal-body">
                             <p class="text-muted">Chọn phương thức thanh toán</p>
                             <div class="row">
-                                <div class="col-md-4" class="no-deco">
-                                    <a href="#">
-                                        <div class="phuongthucnap active text-center">
-                                            <p class="no-margin">Thẻ Visa, Master</p>
-                                            <p class="text-gray no-margin">(Miễn phí thanh toán)</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="#" class="no-deco">
+                                <div class="col-md-4 active">
+                                    <a href="#tab-visa" data-toggle="tab">
                                         <div class="phuongthucnap text-center">
                                             <p class="no-margin">Thẻ Visa, Master</p>
                                             <p class="text-gray no-margin">(Miễn phí thanh toán)</p>
@@ -461,45 +453,145 @@
                                     </a>
                                 </div>
                                 <div class="col-md-4">
-                                    <a href="#" class="no-deco">
+                                    <a href="#tab-atm" data-toggle="tab">
                                         <div class="phuongthucnap text-center">
-                                            <p class="no-margin">Thẻ Visa, Master</p>
+                                            <p class="no-margin">Thẻ ATM</p>
                                             <p class="text-gray no-margin">(Miễn phí thanh toán)</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#tab-dt" data-toggle="tab">
+                                        <div class="phuongthucnap text-center">
+                                            <p class="no-margin">Thẻ cào điện thoại</p>
+                                            <p class="text-gray no-margin">(Viettel, Mobile, Vina)</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="break-line"></div>
-                                </div>
-                                <div class="col-md-7 col-xs-12">
-                                    <div class="form-group">
-                                        <label for="sdt">Số điện thoại</label>
-                                        <input type="tel" class="form-control" placeholder="VD: 0986868686" name="tu-khoa" id="sdt">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="name">Tên in trên thẻ</label>
-                                        <input type="text" class="form-control" placeholder="VD: NGUYEN VAN A" name="tu-khoa" id="name">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="nhh">Ngày hết hạn</label>
-                                                <input type="text" class="form-control" placeholder="MM/YY" name="tu-khoa" id="nhh">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade in active" id="tab-visa">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="break-line"></div>
+                                                </div>
+                                                <div class="col-md-7 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label for="sdt">Số điện thoại</label>
+                                                        <input type="tel" class="form-control" placeholder="VD: 0986868686" name="tu-khoa" id="sdt">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="name">Tên in trên thẻ</label>
+                                                        <input type="text" class="form-control" placeholder="VD: NGUYEN VAN A" name="tu-khoa" id="name">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="nhh">Ngày hết hạn</label>
+                                                                <input type="text" class="form-control" placeholder="MM/YY" name="tu-khoa" id="nhh">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="mbm">Mã bảo mật</label>
+                                                                <input type="text" class="form-control" placeholder="123" name="tu-khoa" id="mbm">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 col-xs-12">
+                                                    <br>
+                                                    <img src="img/visa.jpg" class="img-responsive">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="mbm">Mã bảo mật</label>
-                                                <input type="text" class="form-control" placeholder="123" name="tu-khoa" id="mbm">
+                                        <div class="tab-pane fade" id="tab-atm">
+                                            <div class="row">
+                                                <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="banks">
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/acb.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/agribank.png" >
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/dong-a.png" alt="" >
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/eximbank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                        <img src="img/banks/hdbank.png" alt="" >
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/Logo-TPBank.png" alt="" >
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/logo.PVcombank1.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/maritimebank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/mbbank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/nama.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/ocebank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/sacombank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/vcb.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/vib.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/vietinbank.png" alt="">
+                                                        </a>
+                                                        <a class="bank-footer" href="">
+                                                            <img src="img/banks/vpbank.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-dt">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <a class="img-border" href="">
+                                                        <img src="img/telnet/viettel.png" alt="" width="71" height="41">
+                                                    </a>
+                                                    <a class="img-border" href="">
+                                                        <img src="img/telnet/mobiphone.png" alt="" width="71" height="41">
+                                                    </a>
+                                                    <a class="img-border" href="">
+                                                        <img src="img/telnet/vinaphone.png" alt="" width="71" height="41">
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="sdt">Mã thẻ:</label>
+                                                        <input type="tel" class="form-control" placeholder="VD: 123456789" name="tu-khoa" id="mt">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="name">Số seri:</label>
+                                                        <input type="text" class="form-control" placeholder="VD: 00253" name="tu-khoa" id="seri">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-5 col-xs-12">
-                                    <br>
-                                    <img src="img/visa.jpg" class="img-responsive">
                                 </div>
                             </div>
                           </div>
