@@ -443,8 +443,8 @@
                           </div>
                           <div class="modal-body">
                             <p class="text-muted">Chọn phương thức thanh toán</p>
-                            <div class="row">
-                                <div class="col-md-4 active">
+                            <div class="row" id="phuongthuc">
+                                <div class="col-md-4 tab-phuongthuc active">
                                     <a href="#tab-visa" data-toggle="tab">
                                         <div class="phuongthucnap text-center">
                                             <p class="no-margin">Thẻ Visa, Master</p>
@@ -452,7 +452,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 tab-phuongthuc">
                                     <a href="#tab-atm" data-toggle="tab">
                                         <div class="phuongthucnap text-center">
                                             <p class="no-margin">Thẻ ATM</p>
@@ -460,7 +460,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 tab-phuongthuc">
                                     <a href="#tab-dt" data-toggle="tab">
                                         <div class="phuongthucnap text-center">
                                             <p class="no-margin">Thẻ cào điện thoại</p>
@@ -510,56 +510,56 @@
                                         <div class="tab-pane fade" id="tab-atm">
                                             <div class="row">
                                                 <div class="row">
-                                                <div class="col-md-12">
+                                                <div class="col-md-12 text-center">
                                                     <div class="banks">
-                                                        <a class="bank-footer" href="">
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/acb.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/agribank.png" >
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/dong-a.png" alt="" >
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/eximbank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                         <img src="img/banks/hdbank.png" alt="" >
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/Logo-TPBank.png" alt="" >
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/logo.PVcombank1.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/maritimebank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/mbbank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/nama.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
-                                                            <img src="img/banks/ocebank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
+                                                            <img src="img/banks/oceanbank.png" alt="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/sacombank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/vcb.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/vib.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/vietinbank.png" alt="">
-                                                        </a>
-                                                        <a class="bank-footer" href="">
+                                                        </span>
+                                                        <span class="bank-footer" href="">
                                                             <img src="img/banks/vpbank.png" alt="">
-                                                        </a>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -567,16 +567,16 @@
                                         </div>
                                         <div class="tab-pane fade" id="tab-dt">
                                             <div class="row">
-                                                <div class="col-md-12">
-                                                    <a class="img-border" href="">
+                                                <div class="col-md-12 text-center">
+                                                    <span class="img-border">
                                                         <img src="img/telnet/viettel.png" alt="" width="71" height="41">
-                                                    </a>
-                                                    <a class="img-border" href="">
+                                                    </span>
+                                                    <span class="img-border">
                                                         <img src="img/telnet/mobiphone.png" alt="" width="71" height="41">
-                                                    </a>
-                                                    <a class="img-border" href="">
+                                                    </span>
+                                                    <span class="img-border">
                                                         <img src="img/telnet/vinaphone.png" alt="" width="71" height="41">
-                                                    </a>
+                                                    </span>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <br>

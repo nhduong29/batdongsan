@@ -633,7 +633,7 @@ table .list-group-item:first-child {
   color: #fff;
 }
 
-.active .phuongthucnap{
+.active .phuongthucnap,.phuongthucnap:hover, .phuongthucnap:active, .phuongthucnap:focus{
   background-color: #F05F40;
 }
 

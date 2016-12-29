@@ -61,4 +61,11 @@
         }
     });
 
+    $('.tab-phuongthuc').click(function(){
+        if(!$(this).hasClass("active")){
+            $('#phuongthuc').find(".active").removeClass('active');
+            $(this).addClass('active');
+        }
+    });
+
 })(jQuery); // End of use strict
